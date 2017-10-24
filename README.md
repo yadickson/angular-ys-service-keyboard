@@ -23,8 +23,6 @@ $ bower install --save angular-ys-factory-keyboard@~1.0.0
 ### Install develop dependencies
 
 ```
-$ bower install --save-dev mocha@~3.5.3
-$ bower install --save-dev chai@~4.1.2
 $ bower install --save-dev angular-mocks@~1.3.20
 ```
 
@@ -39,8 +37,10 @@ $ npm install --save-dev babel-preset-babili
 
 ```
 $ npm install --save-dev bower
-$ npm install --save-dev karma chai mocha
-$ npm install --save-dev karma-chai karma-bro karma-mocha karma-phantomjs-launcher
+$ npm install --save-dev karma
+$ npm install --save-dev chai karma-chai
+$ npm install --save-dev mocha karma-mocha
+$ npm install --save-dev karma-bro karma-phantomjs-launcher
 $ npm install --save-dev karma-coverage karma-istanbul
 $ npm install --save-dev karma-mocha-reporter karma-junit-reporter
 $ npm install --save-dev coveralls

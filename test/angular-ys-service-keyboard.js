@@ -99,6 +99,7 @@
       it('Check other', inject(function(ysServiceKeyboard) {
         expect(ysServiceKeyboard.isDecimalNumber('Other')).to.be.false;
       }));
+
     });
 
   });
