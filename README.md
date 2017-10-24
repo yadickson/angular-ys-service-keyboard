@@ -43,6 +43,7 @@ $ npm install --save-dev karma chai mocha
 $ npm install --save-dev karma-chai karma-bro karma-mocha karma-phantomjs-launcher
 $ npm install --save-dev karma-coverage karma-istanbul
 $ npm install --save-dev karma-mocha-reporter karma-junit-reporter
+$ npm install --save-dev coveralls
 ```
 
 ### Prepare application
@@ -54,7 +55,7 @@ $ bower install && npm install
 ### Compiler application
 
 ```
-$ npm run compiler
+$ npm run compile
 ```
 
 ### Test application

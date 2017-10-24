@@ -18,7 +18,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "karma.conf.js",
+    "package.json",
+    "src"
   ],
   "dependencies": {
     "jquery": "~1.12.0",

@@ -11,7 +11,7 @@
   angular.module('angularYS.ServiceKeyboard', ['angularYS.FactoryKeyboard'])
     .service('ysServiceKeyboard', keyboard);
 
- keyboard.$inject = ['ysFactoryKeyboard'];
+  keyboard.$inject = ['ysFactoryKeyboard'];
 
   function keyboard(ysFactoryKeyboard) {
 

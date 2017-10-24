@@ -21,6 +21,18 @@
         },
         isCtrlV: function(e) {
           return e === 'V';
+        },
+        isNumericKey: function(e) {
+          return e === 'N';
+        },
+        isNavegationKey: function(e) {
+          return e === 'NK';
+        },
+        isClearKey: function(e) {
+          return e === 'Clear';
+        },
+        isDotKey: function(e) {
+          return e === 'Dot';
         }
       };
 
@@ -53,45 +65,41 @@
       }));
 
     });
-    /*
-        describe('Check method isOnlyNumber', function() {
 
-          it('Check number', function() {
-            var event = angular.element.Event("keyup");
-            expect(ysServiceKeyboard.getStringCode(event)).to.equal('\u0000');
-          });
+    describe('Check method isOnlyNumber', function() {
 
-          it('Check other', function() {
-            var event = angular.element.Event("keyup");
-            event.which = 0x31;
-            expect(ysServiceKeyboard.getStringCode(event)).to.equal('1');
-          });
+      it('Check number', inject(function(ysServiceKeyboard) {
+        expect(ysServiceKeyboard.isOnlyNumber('N')).to.be.true;
+      }));
 
-        });
+      it('Check navegation key', inject(function(ysServiceKeyboard) {
+        expect(ysServiceKeyboard.isOnlyNumber('NK')).to.be.true;
+      }));
 
-        describe('Check method isDecimalNumber', function() {
+      it('Check clear key', inject(function(ysServiceKeyboard) {
+        expect(ysServiceKeyboard.isOnlyNumber('Clear')).to.be.true;
+      }));
 
-          it('Check number', function() {
-            var event = angular.element.Event("keyup");
-            event.keyCode = 0x61;
-            event.ctrlKey = false;
-            expect(ysServiceKeyboard.isCtrlA(event)).to.be.false;
-          });
+      it('Check other', inject(function(ysServiceKeyboard) {
+        expect(ysServiceKeyboard.isOnlyNumber('Other')).to.be.false;
+      }));
 
-          it('Check dot', function() {
-            var event = angular.element.Event("keyup");
-            event.keyCode = 0x62;
-            event.ctrlKey = true;
-            expect(ysServiceKeyboard.isCtrlA(event)).to.be.false;
-          });
+    });
 
-          it('Check other', function() {
-            var event = angular.element.Event("keyup");
-            event.key = 'a';
-            event.ctrlKey = true;
-            expect(ysServiceKeyboard.isCtrlA(event)).to.be.true;
-          });
-        });
-    */
+    describe('Check method isDecimalNumber', function() {
+
+      it('Check number', inject(function(ysServiceKeyboard) {
+        expect(ysServiceKeyboard.isDecimalNumber('N')).to.be.true;
+      }));
+
+      it('Check dot', inject(function(ysServiceKeyboard) {
+        expect(ysServiceKeyboard.isDecimalNumber('Dot')).to.be.true;
+      }));
+
+      it('Check other', inject(function(ysServiceKeyboard) {
+        expect(ysServiceKeyboard.isDecimalNumber('Other')).to.be.false;
+      }));
+    });
+
   });
 })();
