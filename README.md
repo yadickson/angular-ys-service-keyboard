@@ -2,6 +2,7 @@
 
 [![TravisCI Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
+[![GitHub version][github-image]][github-url]
 
 Angular service to use factory keyboard event
 
@@ -64,9 +65,10 @@ $ npm run compile
 $ npm test
 ```
 
-### Register (previusly make a git tag version)
+### Register
 
 ```
+$ bower login
 $ bower register angular-ys-service-keyboard https://github.com/yadickson/angular-ys-service-keyboard.git
 ```
 
@@ -76,3 +78,5 @@ $ bower register angular-ys-service-keyboard https://github.com/yadickson/angula
 [coveralls-image]: https://coveralls.io/repos/github/yadickson/angular-ys-service-keyboard/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/yadickson/angular-ys-service-keyboard
 
+[github-image]: https://badge.fury.io/gh/yadickson%2Fangular-ys-service-keyboard.svg
+[github-url]: https://badge.fury.io/gh/yadickson%2Fangular-ys-service-keyboard
