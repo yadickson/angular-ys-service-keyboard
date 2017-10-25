@@ -15,15 +15,15 @@ $ yarn init
 ### Add dependencies
 
 ```
-$ yarn add jquery@1.12.0 --tilde
-$ yarn add angular@1.3.20 --tilde
-$ yarn add angular-ys-factory-keyboard@1.0.0 --tilde
+$ yarn add jquery@~1.12.0
+$ yarn add angular@~1.3.20
+$ yarn add angular-ys-factory-keyboard@~1.0.0
 ```
 
 ### Add develop dependencies
 
 ```
-$ yarn add --dev angular-mocks@1.3.20 --tilde
+$ yarn add --dev angular-mocks@~1.3.20
 ```
 
 ### Add compiler dependencies
