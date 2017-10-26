@@ -1,8 +1,8 @@
-# angular-ys-service-keyboard
+# angular-ys-service-keyboard [![GitHub version][github-image]][github-url]
 
-[![TravisCI Status][travis-image]][travis-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
-[![GitHub version][github-image]][github-url]
+### Travis-CI [![TravisCI Status][travis-image]][travis-url]
+### Coverage [![Coverage Status][coveralls-image]][coveralls-url]
+
 
 Angular service to use factory keyboard event
 
@@ -70,11 +70,11 @@ $ yarn test
 $ yarn publish
 ```
 
-[travis-image]: https://img.shields.io/travis/yadickson/angular-ys-service-keyboard.svg?label=travisci
+[travis-image]: https://travis-ci.org/yadickson/angular-ys-service-keyboard.png
 [travis-url]: https://travis-ci.org/yadickson/angular-ys-service-keyboard
 
-[coveralls-image]: https://coveralls.io/repos/github/yadickson/angular-ys-service-keyboard/badge.svg?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/yadickson/angular-ys-service-keyboard/badge.png
 [coveralls-url]: https://coveralls.io/github/yadickson/angular-ys-service-keyboard
 
-[github-image]: https://badge.fury.io/gh/yadickson%2Fangular-ys-service-keyboard.svg
+[github-image]: https://badge.fury.io/gh/yadickson%2Fangular-ys-service-keyboard.png
 [github-url]: https://badge.fury.io/gh/yadickson%2Fangular-ys-service-keyboard
