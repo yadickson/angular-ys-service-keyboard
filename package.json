@@ -1,6 +1,6 @@
 {
   "name": "angular-ys-service-keyboard",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Angular service to use factory keyboard event",
   "main": "dist/angular-ys-service-keyboard.js",
   "dependencies": {

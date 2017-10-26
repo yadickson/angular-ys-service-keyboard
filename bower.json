@@ -1,0 +1,23 @@
+{
+  "name": "angular-ys-service-keyboard",
+  "description": "Angular service to use factory keyboard event",
+  "main": "dist/angular-ys-service-keyboard.js",
+  "authors": [
+    "Yadickson Soto <yadickson@gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "angular",
+    "yadickson",
+    "service",
+    "keyboard"
+  ],
+  "homepage": "https://github.com/yadickson/angular-ys-service-keyboard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
