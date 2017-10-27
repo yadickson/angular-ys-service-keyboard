@@ -10,7 +10,6 @@ Angular service to use factory keyboard event
 
 ```
 $ yarn init
-$ bower init
 ```
 
 ### Add dependencies
